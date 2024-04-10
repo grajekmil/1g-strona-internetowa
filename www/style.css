@@ -6,3 +6,70 @@
 body {
    font-family: sans;
 }
+html, body {
+	background-color: #fff;
+	color: #000;
+	margin: 0;
+	padding: 0;
+}
+
+#NAGLOWEK {
+	background-color: #888;
+}
+
+#MENU {
+	background-color: #ccc;
+}
+
+#TRESC {
+	background-color: #fff;
+}
+
+#STOPKA {
+	background-color: #888;
+}
+
+@media only all and (min-width: 800px) {
+	#MENU {
+		width: 150px;
+		float: left;
+		overflow: hidden;
+		position: relative;
+	}
+
+	#TRESC {
+		margin-left: 150px;
+	}
+
+	#STOPKA {
+		clear: both;
+	}
+}
+
+@media only all and (min-width: 1280px) {
+	html, body {
+		text-align: center;
+	}
+
+	#top {
+		width: 1260px;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: left;
+	}
+
+	#MENU {
+		width: 300px;
+	}
+
+	#TRESC {
+		width: 960px;
+		float: left;
+		overflow: hidden;
+		margin-left: 0;
+	}
+
+	#STOPKA {
+		width: 100%;
+	}
+}
