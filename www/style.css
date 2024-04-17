@@ -13,8 +13,18 @@ html, body {
 	padding: 0;
 }
 
-#NAGLOWEK {
-	background-color: #888;
+#NAGLOWEK { 
+    background-image: url(img/baner.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    color: white;
+	font-family: sans;
+	font-size: 50 px;
+    text-align: center; 
+	padding: 50px;
+}
+	
 }
 
 #MENU {
@@ -72,4 +82,4 @@ html, body {
 	#STOPKA {
 		width: 100%;
 	}
-}
+
