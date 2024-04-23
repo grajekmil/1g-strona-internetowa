@@ -5,13 +5,44 @@
 
 body {
    font-family: sans;
+   background-color: #f16800;
 }
 html, body {
-	background-color: #fff;
 	color: #000;
 	margin: 0;
 	padding: 0;
 }
+
+ul, ul li {
+	display: block;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	width: 200px;
+}
+
+ul a:link, ul a:visited {
+	display: block;
+	width: 186px;
+	text-decoration: none;
+	background-color: #b66b32;
+	color: #000;
+	padding: 5px;
+	border: 2px outset #5e2b04;
+}
+
+ul a:hover {
+	border-style: inset;
+	padding: 7px 3px 3px 7px;
+}
+
+table, th ,td {
+	border: 1px solid;
+}
+
 .OBRAZEK {
   margin: 10px; 
   width: 100%;
@@ -40,11 +71,11 @@ html, body {
 }
 
 #TRESC {
-	background-color: #fff;
+	background-color: #f16800;
 }
 
 #STOPKA {
-	background-color: #888;
+	background-color:darkorange;
 }
 
 @media only all and (min-width: 800px) {
